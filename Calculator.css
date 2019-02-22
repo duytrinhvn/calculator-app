@@ -1,0 +1,51 @@
+body{
+	margin:0;
+	background-image: url("images/dark-grey.jpg");
+}
+div p{
+	color: white;
+	float: right;
+	font-size: 3em;
+	padding-right: 3%;
+}
+#container{
+	display: block;
+	margin: 150px auto;
+	height: 490px; 
+	width: 40%;
+	background-image: url("images/dark-grey.jpg");
+}
+#screen{
+	display: block;
+	height: 140px;
+	background-color: #303030;
+}
+#keys{
+	display:block;
+	text-align: center;
+	margin-left: 10%;
+	margin-top: 3%;
+}
+button{
+	font-size: 2em;
+	text-align: center;
+	display: block;
+	margin: 1%;
+	float: left;
+	width: 20%; 
+	height: 50px;
+}
+#equality{
+	font-size: 2em;
+	text-align: center;
+	display: block;
+	margin: 1%;
+	float: left;
+	width: 64%; 
+	height: 50px;
+
+}
+
+.hov:hover{
+	background-color: grey;
+}
